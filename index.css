@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rajdhani:wght@500&display=swap');
+
+
+*{
+    padding:0;
+    box-sizing:border-box ;
+    margin:0 ;
+    background-color:rgb(170, 170, 170);
+    font-size: larger;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#game-over {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 100px; 
+    color:black;
+}
+
+.box {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width:30vw ;
+    height:50vh ;
+    background-color :#002D62 ; 
+    border: 5px solid white;
+    position: relative;
+    border-radius: 10px;
+}
+
+#score {
+    font-size: xx-large;
+    font-family: 'Rajdhani', sans-seri;
+    align-self: flex-start;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around ;
+
+}
